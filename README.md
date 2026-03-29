@@ -3,7 +3,7 @@
   <img src="https://github.com/aaronherg/aaronherg/blob/main/recursos/logocafeterialpd.png?raw=true" 
        alt="SupreDataRD Logo" width="30%"/><br> 
 
-  <p><strong>Cafeteria la Parada (Cafeterialpd)</strong></p>
+  <p><strong>Cafeteria la Parada (CafeteriaLPD)</strong></p>
   <p>Cafetería La Parada App es una solución digital diseñada para la gestión comercial integral, orientada a optimizar los procesos de venta, control de inventario y administración operativa, ofreciendo una plataforma eficiente, escalable y adaptada a entornos de negocio modernos.</p>
 
 </div>
