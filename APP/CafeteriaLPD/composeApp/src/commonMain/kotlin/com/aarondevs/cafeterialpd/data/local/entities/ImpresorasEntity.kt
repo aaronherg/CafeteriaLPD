@@ -5,11 +5,10 @@ import androidx.room.PrimaryKey
 import kotlinx.datetime.LocalDateTime
 import kotlinx.serialization.Contextual
 
-@Entity(tableName = "Categorias")
-data class CategoriasEntity(
-    @PrimaryKey val categoriaId: Int,
+@Entity(tableName = "Impresoras")
+data class ImpresorasEntity(
+    @PrimaryKey val impresoraId: Int,
     val nombre: String,
-    val color: String,
-    val estado: String,
-    @Contextual val version: LocalDateTime
+    val codigo: String,
+    val estado: String
 )

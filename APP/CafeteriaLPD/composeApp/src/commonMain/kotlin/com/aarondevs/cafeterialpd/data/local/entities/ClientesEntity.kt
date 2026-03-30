@@ -5,13 +5,12 @@ import androidx.room.PrimaryKey
 import kotlinx.datetime.LocalDateTime
 import kotlinx.serialization.Contextual
 
-@Entity(tableName = "Productos")
-data class ProductosEntity(
-    @PrimaryKey val productoId: Int,
-    val categoriaId: Int,
+@Entity(tableName = "Clientes")
+data class ClientesEntity(
+    @PrimaryKey val clienteId: Int,
+    val telefono: String,
     val nombre: String,
-    val precio: Double,
-    val imagen: String,
+    val direccion: String,
     val estado: String,
     @Contextual val version: LocalDateTime
 )
