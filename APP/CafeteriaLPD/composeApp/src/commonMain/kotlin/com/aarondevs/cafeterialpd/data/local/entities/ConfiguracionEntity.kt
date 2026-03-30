@@ -2,6 +2,8 @@ package com.aarondevs.cafeterialpd.data.local.entities
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import kotlinx.datetime.LocalDateTime
+import kotlinx.serialization.Contextual
 
 @Entity(tableName = "Configuracion")
 data class ConfiguracionEntity(
@@ -9,7 +11,6 @@ data class ConfiguracionEntity(
     val negocio: String,
     val direccion: String,
     val telefono: String,
-    val montoEnvio: Double,
-    val usuarioId: Int,
-    val token: String
+    val envio: Double,
+    @Contextual val version: LocalDateTime
 )

@@ -26,3 +26,77 @@ object ColoresCategorias {
         Color(0xFF94A3B8), Color(0xFF64748B), Color(0xFF475569), Color(0xFF334155), Color(0xFF1E293B)
     )
 }
+
+
+object Permisos {
+
+    // Configuracion
+    const val AGREGAR_CONFIGURACION = "agregar_configuracion"
+    const val EDITAR_CONFIGURACION = "editar_configuracion"
+    const val ELIMINAR_CONFIGURACION = "eliminar_configuracion"
+    const val BUSCAR_CONFIGURACION = "buscar_configuracion"
+    const val LISTAR_CONFIGURACIONES = "listar_configuraciones"
+
+    // Usuarios
+    const val AGREGAR_USUARIO = "agregar_usuario"
+    const val EDITAR_USUARIO = "editar_usuario"
+    const val ELIMINAR_USUARIO = "eliminar_usuario"
+    const val BUSCAR_USUARIO = "buscar_usuario"
+    const val LISTAR_USUARIOS = "listar_usuarios"
+    const val CERRAR_SESION = "cerrar_sesion"
+    const val LOGIN = "login"
+    const val VERIFICAR_SESION = "verificar_sesion"
+
+    // Roles
+    const val AGREGAR_ROL = "agregar_rol"
+    const val EDITAR_ROL = "editar_rol"
+    const val ELIMINAR_ROL = "eliminar_rol"
+    const val BUSCAR_ROL = "buscar_rol"
+    const val LISTAR_ROLES = "listar_roles"
+
+    // Categorías
+    const val AGREGAR_CATEGORIA = "agregar_categoria"
+    const val EDITAR_CATEGORIA = "editar_categoria"
+    const val ELIMINAR_CATEGORIA = "eliminar_categoria"
+    const val BUSCAR_CATEGORIA = "buscar_categoria"
+    const val LISTAR_CATEGORIAS = "listar_categorias"
+
+    // Áreas
+    const val AGREGAR_AREA = "agregar_area"
+    const val EDITAR_AREA = "editar_area"
+    const val ELIMINAR_AREA = "eliminar_area"
+    const val BUSCAR_AREA = "buscar_area"
+    const val LISTAR_AREAS = "listar_areas"
+
+    // Ventas
+    const val AGREGAR_VENTA = "agregar_venta"
+    const val EDITAR_VENTA = "editar_venta"
+    const val ELIMINAR_VENTA = "eliminar_venta"
+    const val BUSCAR_VENTA = "buscar_venta"
+    const val LISTAR_VENTAS = "listar_ventas"
+
+    // Productos
+    const val AGREGAR_PRODUCTO = "agregar_producto"
+    const val EDITAR_PRODUCTO = "editar_producto"
+    const val ELIMINAR_PRODUCTO = "eliminar_producto"
+    const val BUSCAR_PRODUCTO = "buscar_producto"
+    const val LISTAR_PRODUCTOS = "listar_productos"
+
+    // Clientes
+    const val AGREGAR_CLIENTE = "agregar_cliente"
+    const val EDITAR_CLIENTE = "editar_cliente"
+    const val ELIMINAR_CLIENTE = "eliminar_cliente"
+    const val BUSCAR_CLIENTE = "buscar_cliente"
+    const val LISTAR_CLIENTES = "listar_clientes"
+}
+
+object Metodos {
+
+    // Categorias
+    const val ADD_CATEGORIA = "add"
+    const val UPDATE_CATEGORIA = "update"
+    const val DELETE_CATEGORIA = "delete"
+    const val GET_ID_CATEGORIA = "getId"
+    const val GET_ALL_CATEGORIA = "getAll"
+
+}
